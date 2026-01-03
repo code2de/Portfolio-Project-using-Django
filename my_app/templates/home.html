@@ -1,106 +1,28 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>My Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Linking external CSS -->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-
-        header {
-            background-color: #052b46;
-            color: white;
-            padding: 30px;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-        }
-
-        header p {
-            margin-top: 10px;
-            font-size: 16px;
-        }
-
-        section {
-            padding: 40px 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-
-        h2 {
-            color: #222;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-        }
-
-        .about p {
-            line-height: 1.6;
-        }
-
-        .skills ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        .skills li {
-            background: #eaeaea;
-            margin: 8px 0;
-            padding: 10px;
-            border-radius: 5px;
-        }
-
-        .projects .card {
-            background: white;
-            padding: 20px;
-            margin: 15px 0;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-        }
-
-        .contact p {
-            margin: 8px 0;
-        }
-
-        footer {
-            background-color: #222;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            margin-top: 40px;
-        }
-
-        a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
 </head>
 
 <body>
 
 <header>
-    <h1>Karunya</h1>
+    <h1>Your Name</h1>
     <p>Student | Developer | Tech Enthusiast</p>
 </header>
 
 <section class="about">
     <h2>About Me</h2>
     <p>
-        I am a passionate learner interested in technology, development, and building
-        meaningful digital solutions. I enjoy working on projects and improving my skills
-        every day.
+        I am a passionate learner interested in technology, development,
+        and building meaningful digital solutions.
     </p>
 </section>
 
@@ -119,30 +41,27 @@
     <h2>Projects</h2>
 
     <div class="card">
-        <h3>Project 1</h3>
-        <p>Portfolio website</p>
+        <h3>Project One</h3>
+        <p>Short description of your project.</p>
         <p><strong>Tech:</strong> HTML, CSS</p>
     </div>
 
     <div class="card">
-        <h3>Project 2</h3>
-        <p>Django project</p>
+        <h3>Project Two</h3>
+        <p>Brief explanation of the problem solved.</p>
         <p><strong>Tech:</strong> Python</p>
     </div>
 </section>
 
 <section class="contact">
     <h2>Contact</h2>
-    <p>Email: karunyamanikandan18@gmail.com</p>
-    <p>GitHub: <a href="#"><github class="com">
-    <code2de></code2de></a></p>
-    <p>LinkedIn: <a href="#"><linkedin class="com">
-    <in>
-    <karunyamanikandan></karunyamanikandan></a></p>
+    <p>Email: yourmail@example.com</p>
+    <p>GitHub: <a href="#">github.com/yourusername</a></p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
 </section>
 
 <footer>
-    <p>Portfolio website</p>
+    <p>© 2026 Your Name</p>
 </footer>
 
 </body>
